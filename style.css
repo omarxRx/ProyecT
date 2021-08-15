@@ -1,15 +1,15 @@
 body{
-	font-family: georgia, times, serif;
-	color: #333;
-	font size: 1.2rem;
-	line-height: 1.6em;
-	margin: 0;
+    font-family: georgia, times, serif;
+    color: #333;
+    font size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
 }
 
 .header{
-	background: rgba(0, 0, 0, .8);
-	color: whitesmoke;
-	padding: 2rem 0;
+    background: rgb(30, 144, 255,.8);
+    color: whitesmoke;
+    padding: 2rem 0;
 
     position: fixed;
     z-index: 5;
@@ -19,67 +19,73 @@ body{
 
 }
 .header a{
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 .logo-nav-container{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 .logo{
-	letter-spacing: 15px;
-	font-size: 2em;
+    letter-spacing: 13px;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 .menu-icon{
-	display: none;
+    display: none;
 }
 .navigation ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .navigation ul li {
-	display: inline-block;
+    display: inline-block;
 }
 .navigation ul li a {
     font-size: 1.3rem;
-	display: block;
-	padding: 0.5rem 1rem;
-	transition: all 0.4s linear;
-	border-radius: 5px;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
 }
 .navigation ul li a:hover {
-	background: black;
+    background: black;
 }
 .main{
-	padding-top: 10rem;
+    padding-top: 10rem;
 }
 
 .container{
-	width: 90%;
-	max-width: 1300px;
-	margin: 0 auto;
-	display: flex;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
     flex-direction: row;
     text-align: center ;
     justify-content: space-between;
 }
 
 .derecha{
-	width: 50%;
+    width: 50%;
 }
 
+
 .derecha img{
-	width: 600px;
-	height: 500px;
-	border-radius: 50px;
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
     object-fit: cover;
 }
+
+
+
+
 .izquierda{
-	width: 50%;
+    width: 50%;
 }
 .izquierda  p {
     font-family: inherit;
@@ -97,16 +103,17 @@ body{
     font-family: inherit;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
 }
 
 .button {
-	letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
     font-weight: 700;
-    background-color: black;;
+    background-color: #008196;
     padding: 1rem 2rem;
     border-radius: 7px;
 
@@ -125,59 +132,61 @@ body{
 
 
 .collaborations {
-	margin-top: 6rem;
-	padding-top: 1rem;
-	width: 100%;
-	height: 15em;
-	background: whitesmoke;
+    margin-top: 6rem;
+    padding-top: 1rem;
+    width: 100%;
+    height: 15em;
+    background: whitesmoke;
 }
 
 .collaborations h1 {
-	text-align: center;
-	font-size: 1.5rem;
-	letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 .institutions{
     width: 90%;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-right: 0;
     padding-left: 8rem;
 }
 
 
 .imagen{
-	width: 9rem;
-	height: 4rem;
+    width: 9rem;
+    height: 4rem;
 }
 .institutions ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .institutions ul li {
-	display: inline-block;
+    display: inline-block;
 }
 .institutions ul li a {
-	display: block;
-	padding: 0.5rem 1rem;
+    display: block;
+    padding: 0.5rem 1rem;
 }
 
 
 
 .methodology{
-	width: 90%;
-	max-width: 1000px;
-	margin: auto;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .methodology h2{
-	margin-top: 4rem;
-	margin-bottom: 0;
-	font-size: 30px;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3rem;
 }
 
 .tabla{
@@ -196,7 +205,7 @@ body{
 }
 
 .tabla h2{
-	margin-top: 10px;
+    margin-top: 10px;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -210,21 +219,61 @@ body{
 
 
 .cursos {
-	margin-top: 0;
-	padding-top: 0;
-	width: 100%;
-	height: 15rem;
-	background: whitesmoke;
+    margin-top: 0;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 12rem;
+    background: whitesmoke;
 }
 
 .cursos h3 {
-	width: 90%;
-	margin: auto;
-	text-align: center;
-	font-size: 1.5rem;
-	letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+ 
 }
 
+
+
+
+
+.cursos3 {
+    margin-top: 0;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 12rem;
+    background: whitesmoke;
+}
+
+.cursos3 h3 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+ 
+}
+
+
+
+.cursos2 {
+    margin-top: 0;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 12rem;
+    background: whitesmoke;
+}
+
+.cursos2 h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+ 
+}
 
 
 
@@ -270,7 +319,7 @@ body{
 
 
 .image  img {
-	max-width: 100%;
+    max-width: 100%;
     border: solid 2px black;
     border-radius: 10px;
     cursor: pointer;
@@ -279,19 +328,19 @@ body{
 
 
 .editors {
-	margin-top: 3rem;
-	padding-top: 3rem;
-	width: 100%;
-	height: 15rem;
-	background: whitesmoke;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    width: 100%;
+    height: 15rem;
+    background: whitesmoke;
 }
 
 .editors h3 {
-	width: 90%;
-	margin: auto;
-	text-align: center;
-	font-size: 1.5rem;
-	letter-spacing: 1px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
 }
 
 
@@ -308,7 +357,7 @@ a{
     width: 100%;
 }
 .Carousel h2{
-    font-size: 40px;
+    font-size: 2rem;
     line-height: 38px;
     padding-bottom: 24px;
     letter-spacing: 3px;
@@ -393,25 +442,26 @@ a{
 
 
 .text-editor{
-	width: 90%;
-	max-width: 1300px;
-	margin: 0 auto;
-	display: flex;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
     flex-direction: row;
     text-align: center ;
     justify-content: space-between;
+    margin-bottom: 4.5rem;
 }
 
 .left{
-	width: 50%;
+    width: 50%;
 }
 
 .left img{
-	width: 500px;
-	height: 420px;
+    width: 500px;
+    height: 420px;
 }
 .right{
-	width: 50%;
+    width: 50%;
 }
 .right  p {
     font-family: inherit;
@@ -435,10 +485,10 @@ a{
 
 
 .translator{
-    margin-top: 5rem;
+    margin-top: -10rem;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     padding: 4% 2%;
     box-sizing: border-box;
 }
@@ -483,7 +533,7 @@ a{
 
 
 .version-control{
-    padding-top: 8rem;
+    padding-top: 1rem;
     width: 90%;
     max-width: 1300px;
     margin: 0 auto;
@@ -530,8 +580,8 @@ a{
 
 
 .sponsors{
-    margin-bottom: 2rem;
-    margin-top: 8rem;
+    margin-bottom: 5rem;
+    margin-top: 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -651,7 +701,7 @@ a{
 
 
 .footer{
-    background: #333;
+    background: #0f6fc5;
     color: white;
     width: 100%;
 }
@@ -719,7 +769,7 @@ a{
 
 .container-footer{
     width: 100%;
-    background: #101010;
+    background: #008196;
 }
 .footer1{
     margin: auto;
@@ -767,31 +817,31 @@ a{
 @media only screen and (max-width: 667px){
 
 .menu-icon{
-	display: block;
-	cursor: pointer;
-	padding: 0.5rem 1rem;
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
 }
 .navigation{
-	width: 100%;
-	margin-top: 1rem;
+    width: 100%;
+    margin-top: 1rem;
 }
 .navigation ul{
-	display: none;
+    display: none;
 }
 .navigation ul.show{
-	display: bloque;
+    display: bloque;
 }
 .navigation ul li {
-	display: block;
+    display: block;
 }
 .navigation ul li a {
-	display: block;
-	padding: 0.5rem 0;
-	transition: all 0.4s linear;
-	border-radius: 5px;
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear;
+    border-radius: 5px;
 }
 .navigation ul li a:hover {
-	background: black;
+    background: black;
 }
 
 }
